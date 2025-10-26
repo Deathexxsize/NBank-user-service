@@ -12,6 +12,7 @@ import java.util.UUID;
 @Getter @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "users_addresses")
 public class UserAddress {
 
     @Id
