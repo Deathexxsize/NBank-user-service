@@ -1,4 +1,4 @@
-package NBank.user_service.dto;
+package NBank.user_service.dto.userDTOs;
 
 import java.util.Date;
 import java.util.UUID;

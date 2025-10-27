@@ -19,7 +19,7 @@ public class UserAddress {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     @OneToOne
-    @JoinColumn(name = "user_id", nullable = false)
+    @JoinColumn(name = "user_id", unique = true, nullable = false)
     private User user;
     private String region;
     private String city;

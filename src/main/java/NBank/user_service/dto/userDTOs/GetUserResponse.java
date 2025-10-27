@@ -1,4 +1,4 @@
-package NBank.user_service.dto;
+package NBank.user_service.dto.userDTOs;
 
 import NBank.user_service.enums.Role;
 

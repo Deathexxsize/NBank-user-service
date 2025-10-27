@@ -1,8 +1,8 @@
 package NBank.user_service.service.impl;
 
-import NBank.user_service.dto.GetUserRequest;
-import NBank.user_service.dto.GetUserResponse;
-import NBank.user_service.dto.MeResponse;
+import NBank.user_service.dto.userDTOs.GetUserRequest;
+import NBank.user_service.dto.userDTOs.GetUserResponse;
+import NBank.user_service.dto.userDTOs.MeResponse;
 import NBank.user_service.model.User;
 import NBank.user_service.repository.UserRepository;
 import NBank.user_service.service.UserService;

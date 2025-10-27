@@ -1,8 +1,8 @@
 package NBank.user_service.controller;
 
-import NBank.user_service.dto.GetUserRequest;
-import NBank.user_service.dto.GetUserResponse;
-import NBank.user_service.dto.MeResponse;
+import NBank.user_service.dto.userDTOs.GetUserRequest;
+import NBank.user_service.dto.userDTOs.GetUserResponse;
+import NBank.user_service.dto.userDTOs.MeResponse;
 import NBank.user_service.service.impl.UserServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
